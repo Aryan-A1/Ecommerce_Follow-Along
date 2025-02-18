@@ -82,6 +82,20 @@ _✅ Goals:_
 
 ---
 
+### Milestone 5: Sign-Up Page & Form Validation
+
+_✅ Goals:_
+
+1. _Sign-Up Page UI:_ Designed a clean and user-friendly sign-up form with fields for name, email, and password.
+2. _Form Validation:_
+   - Ensured the email follows the correct format.
+   - Implemented password security criteria (minimum length, special characters, etc.).
+3. _User Registration Flow:_ Integrated frontend form submission with the backend API.
+4. _Error Handling:_ Displayed validation errors to users in real-time.
+5. _README Update:_ Documented progress and updated repository.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
