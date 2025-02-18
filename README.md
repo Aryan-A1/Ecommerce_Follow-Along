@@ -54,6 +54,22 @@ _✅ Goals:_
 
 ---
 
+### Milestone 3: Backend Structure & Server Setup
+
+_✅ Goals:_
+
+1. _Backend Folder Structure:_ Created a structured hierarchy for organizing routes, controllers, models, and middleware.
+2. _Server Setup:_
+   - Used Node.js and Express.js to create a backend server.
+   - Configured the server to listen on a designated port.
+3. _Database Connection:_
+   - Integrated MongoDB for efficient data storage.
+   - Confirmed the connection between the server and MongoDB.
+4. _Error Handling:_
+   - Provided clear error messages for better debugging and user feedback.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
