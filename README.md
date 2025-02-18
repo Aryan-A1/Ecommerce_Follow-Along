@@ -96,6 +96,25 @@ _✅ Goals:_
 
 ---
 
+### Milestone 6: Secure User Registration
+
+_✅ Goals:_
+
+1. _Password Encryption:_
+   - Used bcrypt to hash passwords before storing them in the database.
+   - Ensured no plaintext passwords are stored.
+2. _Secure Data Storage:_
+   - Stored the user's encrypted password along with other necessary details in MongoDB.
+3. _Updated API Endpoints:_
+   - Modified the user registration endpoint to handle password hashing securely.
+4. _Security Compliance:_
+   - Followed best practices for protecting user credentials.
+   - Complied with security standards like GDPR and PCI-DSS.
+5. _README Update:_
+   - Documented progress for Milestone 6 and updated the repository.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
