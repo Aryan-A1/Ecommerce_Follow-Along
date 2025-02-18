@@ -139,6 +139,15 @@ _✅ Goals:_
 
 ---
 
+### 🏆 Milestone 9: Product Form Creation
+
+✅ Goals:
+
+- Product Form: Developed a product form for adding products with multiple images.
+- Admin Access (Optional): Experimenting with adding admin-specific upload functionality.
+- User Profiles (Optional): Considering adding shop-specific user roles for uploading products.
+- Next Steps: Implement role-based access, improve validation, and optimize image upload.
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
