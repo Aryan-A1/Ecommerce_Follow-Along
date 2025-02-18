@@ -127,6 +127,18 @@ _✅ Goals:_
 
 ---
 
+### 🏆 Milestone 8: Product Card Component and Homepage Design
+
+- Designed a _reusable Product Card Component_ to display product details.
+- Implemented _props_ to pass product information dynamically (e.g., name, price, image).
+- Used _array mapping_ to display multiple products efficiently.
+- Designed a _structured homepage layout_ with a clean and visually appealing UI.
+- Ensured _responsiveness_ using CSS Grid or Flexbox.
+- Updated the _README.md_ file with progress details.
+- Committed and pushed changes to the _GitHub repository_.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
