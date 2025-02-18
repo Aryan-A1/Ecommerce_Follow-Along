@@ -115,6 +115,18 @@ _✅ Goals:_
 
 ---
 
+### 🏆 Milestone 7: Secure Login with Password Verification
+
+- Developed a _backend endpoint_ for user login.
+- Implemented _user authentication_ by validating credentials.
+- Used _bcrypt_ to compare hashed passwords securely.
+- Ensured compliance with _security standards_ like GDPR and PCI-DSS.
+- Returned appropriate error messages for _invalid credentials_.
+- Updated the _README.md_ file with progress details.
+- Committed and pushed changes to the _GitHub repository_.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
