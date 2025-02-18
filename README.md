@@ -42,6 +42,18 @@ _✅ Goals:_
 
 ---
 
+### Milestone 2: Frontend & Backend Initialization
+
+_✅ Goals:_
+
+1. _Project Folder Structure:_ Organized files into separate frontend and backend directories.
+2. _React Frontend Setup:_ Initialized a React application for building the user interface.
+3. _Node.js Backend Setup:_ Set up a simple Node.js server for API integration in future milestones.
+4. _Tailwind CSS Configuration:_ Integrated and configured Tailwind CSS for modern, responsive styling.
+5. _Login Page Development:_ Created a login page with functionality and styling.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
