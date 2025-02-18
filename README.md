@@ -70,6 +70,18 @@ _✅ Goals:_
 
 ---
 
+### Milestone 4: Creating User Model and Controller
+
+_✅ Goals:_
+
+1. _User Model:_ Defined the structure of user data with attributes like name, email, password, and profile picture.
+2. _User Controller:_ Handled user-related actions such as registration and data retrieval.
+3. _Multer Integration:_ Enabled file uploads for storing user profile pictures.
+4. _API Routes:_ Created endpoints for user creation and fetching user details.
+5. _README Update:_ Documented progress and updated repository.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
