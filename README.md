@@ -148,6 +148,25 @@ _✅ Goals:_
 - User Profiles (Optional): Considering adding shop-specific user roles for uploading products.
 - Next Steps: Implement role-based access, improve validation, and optimize image upload.
 
+---
+
+### Milestone 10: Product Schema and API Endpoint Creation
+
+✅ Goals:
+
+## Product Schema:
+
+- Created a Mongoose schema for product data, including fields like product name, description, price, and image URL.
+- Implemented validation to ensure the fields are correctly formatted and required.
+- Ensured data integrity with proper field types and validation rules.
+- API Endpoint Creation:
+  _ Developed a POST endpoint to accept product data from the client-side.
+  _ Validated incoming product details and saved them to the MongoDB database. \* Integrated error handling to ensure smooth validation and saving of product data.
+- Validation:
+
+      * Used Mongoose's built-in validation methods to enforce constraints on product data.
+      * Prevented invalid or incomplete data from being stored in the database.
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
