@@ -4,22 +4,23 @@
 
 This project is an e-commerce website developed through a series of milestones, progressively adding features to build a complete and functional application.
 
-## 📚 Table of Contents
-
-- [Overview](#-overview)
-- [Tech Stack](#-tech-stack)
-- [Milestones](#-milestones)
-  - [Milestone 1: Project Setup](#milestone-1-project-setup)
-  - [Milestone 2: Frontend & Backend Initialization](#milestone-2-frontend--backend-initialization)
-  - [Milestone 3: Backend Structure & Server Setup](#milestone-3-backend-structure--server-setup)
-  - [Milestone 4: Creating User Model and Controller](#milestone-4-creating-user-model-and-controller)
-  - [Milestone 5: Sign-Up Page & Form Validation](#milestone-5-sign-up-page--form-validation)
-- [How to Run the Project](#-how-to-run-the-project)
-- [Next Steps](#-next-steps)
-- [Contributing](#-contributing)
-- [License](#-license)
-
----
+## 📚 Table of Contents  
+- [Overview](#-overview)  
+- [Tech Stack](#-tech-stack)  
+- [Milestones](#-milestones)  
+  - [Milestone 1: Project Setup](#milestone-1-project-setup)  
+  - [Milestone 2: Frontend & Backend Initialization](#milestone-2-frontend--backend-initialization)  
+  - [Milestone 3: Backend Structure & Server Setup](#milestone-3-backend-structure--server-setup)  
+  - [Milestone 4: Creating User Model and Controller](#milestone-4-creating-user-model-and-controller)  
+  - [Milestone 5: Sign-Up Page & Form Validation](#milestone-5-sign-up-page--form-validation)  
+  - [Milestone 6: Secure User Registration](#milestone-6-secure-user-registration)  
+  - [Milestone 7: User Login & Authentication](#milestone-7-user-login--authentication)  
+  - [Milestone 8: Product Card Component & Homepage Layout](#milestone-8-product-card-component--homepage-layout)  
+  - [Milestone 9: Product Input Form](#milestone-9-product-input-form)  
+  - [Milestone 10: Product Schema & Endpoint Creation](#milestone-10-product-schema--endpoint-creation)
+  - [Milestone 11: Dynamic Homepage with Product Data](#milestone-11-dynamic-homepage-with-product-data)
+  - [Milestone 12: My Products Page - Filtering by User Email](#milestone-12-my-products-page---filtering-by-user-email)
+- [How to Run the Project](#-how-to-run-the-project) ---
 
 ## 🛠 Tech Stack
 
@@ -166,6 +167,53 @@ _✅ Goals:_
 
       * Used Mongoose's built-in validation methods to enforce constraints on product data.
       * Prevented invalid or incomplete data from being stored in the database.
+
+---
+
+### Milestone 11: Dynamic Homepage with Product Data
+
+✅ Goals:
+
+1. Backend - Fetch All Products
+   Created an API endpoint to retrieve all product data stored in MongoDB.
+   Used Express.js and Mongoose to fetch and send product details as JSON.
+
+2. Frontend - Fetch & Display Data Dynamically
+   Created a function to fetch product data from the backend.
+   Passed the received data to the existing Product Card Component.
+   Used .map() to dynamically render each product on the homepage.
+
+3. Why This Matters?
+   Enables dynamic content loading from the database instead of hardcoded values.
+   Improves scalability and flexibility as new products are added.
+
+4. Submission Steps
+   ✅ Pushed the updated code to the GitHub repository.
+   ✅ Updated the README.md file with Milestone 11 details.
+   ✅ Shared the repository link for submission.
+
+---
+
+### Milestone 12: My Products Page - Filtering by User Email  
+
+✅ *Goals:*  
+
+#### 1️⃣ Backend - Fetch Products by User Email  
+- Created an API endpoint to *retrieve only the products* added by the logged-in user.  
+- Used *Express.js* and *Mongoose* to *filter products based on the user's email* stored in MongoDB.  
+- Ensured *secure and efficient querying* to fetch only relevant data.  
+
+#### 2️⃣ Frontend - Fetch & Display User-Specific Products  
+- Created a function to *fetch products linked to the logged-in user's email*.  
+- Passed the received data to the existing *Product Card Component*.  
+- Used .map() to dynamically *render only the user's products* on the *"My Products"* page.  
+
+#### 3️⃣ Why This Matters?  
+- Enables *personalized product listings* based on the logged-in user's email.  
+- Improves *data filtering skills*, ensuring only relevant data is sent to the client.  
+- Enhances user experience by displaying only their *added products* instead of all products.
+
+---
 
 ## ▶ How to Run the Project
 
