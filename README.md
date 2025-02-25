@@ -248,6 +248,22 @@ By the end of this milestone, you will:
 
 ---
 
+## Milestone 14: Delete Product Functionality 🚀  
+  
+Welcome to Milestone 14!   
+
+ **Overview** 
+In this milestone, we will enhance our product management system by adding functionality to delete a product. 
+We will implement a backend endpoint that allows deletion of a product using its unique ID from MongoDB.  
+
+ **Learning Goals**  
+By the end of this milestone, you will:  
+ Understand how to create a DELETE API endpoint in Express.js.  
+ Learn how to remove a specific product from MongoDB using Mongoose.  
+ Enhance your backend development skills by handling deletion requests properly.  
+ 
+ ---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
