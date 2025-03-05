@@ -264,6 +264,26 @@ By the end of this milestone, you will:
  
  ---
 
+## Milestone 15: Create and Navbar component and add nav component to every screen.
+
+**Learning Goals**  
+By the end of this milestone, you will:  
+- Create a reusable Nav component.  
+- Use the Nav component across multiple pages.  
+
+ **Steps for Milestone 15** 
+1. Create a new Nav component with links to:  
+   - Home  
+   - My Products  
+   - Add Product  
+   - Cart  
+2. Make the Navbar responsive for all screen sizes.  
+3. Add the Nav component to all pages for smooth navigation.  
+
+This milestone covers creating a navbar and enabling seamless page navigation.
+
+---
+
 ## ▶ How to Run the Project
 
 1. Clone the repository:
