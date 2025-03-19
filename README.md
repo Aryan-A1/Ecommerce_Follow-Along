@@ -408,7 +408,7 @@ Steps
 
 ---
 
-Milestone 18: Cart Endpoint Creation
+### Milestone 18: Cart Endpoint Creation
 
 Overview
 In this milestone, the goal is to create backend functionality to handle cart operations. Specifically, you will create an endpoint to receive requests from the cart page and another to fetch all the products inside a user's cart using their email.
@@ -435,3 +435,32 @@ Database Handling
 Ensure that product details are stored appropriately in the database and can be retrieved efficiently.
 
 Structure the database queries so that they return the relevant cart information for the specific user based on their email.
+
+---
+
+# Milestone 19: Cart Functionality
+
+**Learning Goals**
+By the end of this milestone, you will:
+
+- Create a cart page that displays the products inside the cart using the endpoint built in Milestone 18.
+- Add an option for each product to increase and decrease its quantity using `+` and `-` buttons.
+- Write a backend endpoint to handle increasing and decreasing the quantity of products in the cart.
+
+**Steps for Milestone 19**
+
+**Create the Cart Frontend Page**
+- Design and develop a frontend UI for the cart page.
+- Fetch and display products inside the cart using the existing API.
+
+**Add Quantity Modification Options**
+- For each product in the cart, provide `+` and `-` buttons to modify the quantity.
+- Ensure the UI updates dynamically when a product quantity changes.
+
+**Create Backend Endpoints**
+- Implement an API endpoint to increase the quantity of a product in the cart.
+- Implement another API endpoint to decrease the quantity of a product in the cart.
+- Ensure the logic prevents decreasing the quantity below `1` or removing the item when quantity reaches `0`.
+
+**Summary**
+This milestone will help in understanding how to create cart functionality, including UI development and API integration to modify product quantities dynamically.
