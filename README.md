@@ -536,3 +536,26 @@ This lesson will help in understanding how to create an endpoint that will store
 
 **Conclusion**
 By completing this milestone, you will gain hands-on experience in creating a backend endpoint that interacts with the database. This will strengthen your understanding of handling user data and managing database operations effectively.
+
+---
+
+### Milestone 23: **Place Order and Address Selection**
+
+In this milestone, we aim to implement the functionality where users can place an order from their cart by selecting a delivery address. This will involve creating a "Place Order" button in the cart, a page for selecting an address, and setting up the backend to fetch all user addresses.
+
+1. Create a "Place Order" Button in the Cart
+- Add a button labeled "Place Order" inside the cart page.
+
+The button should navigate the user to the "Select Address" page when clicked.
+
+2. Create "Select Address" Page
+- On this page, display all the saved addresses of the user.
+
+
+
+3. Backend Endpoint to Fetch User Addresses
+- Create a backend endpoint using Mongoose to fetch all addresses associated with the logged-in user.
+
+
+4. Mongoose Schema for Storing Orders
+- Define a schema for storing order details in the database, which will include the selected address, products in the cart, total amount, and user details.
