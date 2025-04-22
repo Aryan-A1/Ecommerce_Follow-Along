@@ -765,3 +765,31 @@ In this milestone, we are adding the ability for users to cancel an order from t
    - Run the following command to install the necessary npm package:
    ```bash
    npm install @paypal/react-paypal-js
+
+---
+
+### Milestone 31: **Redux for Global State Management**
+
+### 🎯 Learning Goals
+By the end of this milestone, you will:
+- Learn how to use Redux for global state management.
+- Implement a Redux store to store all global states, such as the user email.
+
+### 📝 Steps for Milestone 31
+
+1. **Install Redux Dependencies:**
+   - Run the following command to install the necessary npm packages:
+   ```bash
+   npm install react-redux @reduxjs/toolkit
+
+### Milestone 32: Using Redux for Global State Management
+
+In this milestone, we will integrate Redux to store the user mail in a global state, which can be accessed across all pages.
+
+#### Steps:
+
+1. **Login Page**:
+   - Use the `dispatch` method to store the user's email in the Redux global state when they log in.
+
+2. **Accessing Global State in Other Pages**:
+   - Use the `useSelector` hook to retrieve the stored email from the Redux state on any page.
